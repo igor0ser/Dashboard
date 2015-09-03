@@ -1,0 +1,43 @@
+html, body {
+  height: 100%; }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.header {
+  background: #36393c;
+  height: 135px;
+  width: 100%;
+  position: fixed; }
+
+.nav {
+  background: #9dbd71;
+  float: left;
+  position: fixed;
+  width: 160px;
+  height: 100%; }
+
+.dashboard {
+  margin-left: 160px;
+  padding-top: 135px;
+  background-color: #ddd; }
+  .dashboard div, .dashboard section {
+    border: 1px dashed #555;
+    box-sizing: border-box; }
+  .dashboard-header {
+    height: 145px; }
+  .dashboard-statistics {
+    height: 145px; }
+  .dashboard-charts-chart {
+    float: left;
+    width: 50%;
+    height: 700px; }
+  .dashboard-players-recent, .dashboard-players-statistics {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 300px; }
+
+/*# sourceMappingURL=main.css.map */
